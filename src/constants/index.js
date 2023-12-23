@@ -24,7 +24,10 @@ import {
   tripguide,
   threejs,
   python,
-  bootsrap,
+  bootstrap,
+  nomad,
+  memories,
+  bag,
 } from "../assets";
 
 export const navLinks = [
@@ -119,8 +122,8 @@ const technologies = [
     icon: python,
   },
   {
-    name: "bootsrap",
-    icon: bootsrap,
+    name: "bootstrap",
+    icon: bootstrap,
   },
 ];
 
@@ -208,58 +211,61 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nomad",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Nomad is a mobile-first web app designed to facilitate business meetups at conventions and conferences. Users can search and filter events by distance, navigate to chosen conventions, and utilize the built-in chat feature powered by Agora.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "django",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    type: "Full Stack Project",
+    image: nomad,
+    source_code_link: "https://github.com/TomKondat/nomad",
   },
   {
-    name: "Job IT",
+    name: "Memories",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A social web app built on the MERN stack and the Material-UI library, enabling users to create, upload, and like posts. It features integrated Google OAuth 2.0 for user authentication, allowing users to log in with their Google accounts. ",
+    tags: [
+      {
+        name: "mern-stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jwt",
+        color: "pink-text-gradient",
+      },
+    ],
+    type: "Full Stack Project",
+    image: memories,
+    source_code_link:
+      "https://github.com/TomKondat/memories?tab=readme-ov-file",
+  },
+  {
+    name: "Bag World",
+    description:
+      "Developed and designed a web-based e-store frontend, where users are able to easily search, filter, and order products",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -267,8 +273,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    type: "Frontend Project",
+    image: bag,
+    source_code_link: "https://github.com/TomKondat/bag-world",
   },
 ];
 

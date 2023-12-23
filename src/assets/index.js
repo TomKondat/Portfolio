@@ -25,9 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import bootsrap from "./tech/bootstrap.png";
+import bootstrap from "./tech/bootstrap.png";
 import carrent from "./carrent.png";
+import nomad from "./nomad.jpg";
+import bag from "./bag.jpg";
 import jobit from "./jobit.png";
+import memories from "./memories.jpg";
 import tripguide from "./tripguide.png";
 
 export {
@@ -60,5 +63,8 @@ export {
   jobit,
   tripguide,
   python,
-  bootsrap,
+  bootstrap,
+  nomad,
+  memories,
+  bag,
 };
