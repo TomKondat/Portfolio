@@ -23,8 +23,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import idf from "./company/idf.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sapir from "./company/sapir.png";
+import comp from "./company/comp.png";
 import bootstrap from "./tech/bootstrap.png";
 import carrent from "./carrent.png";
 import nomad from "./nomad.jpg";
@@ -67,4 +70,7 @@ export {
   nomad,
   memories,
   bag,
+  idf,
+  sapir,
+  comp,
 };
