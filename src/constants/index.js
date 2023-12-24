@@ -24,7 +24,14 @@ import {
   tripguide,
   threejs,
   python,
-  bootsrap,
+  bootstrap,
+  nomad,
+  memories,
+  bag,
+  idf,
+  sapir,
+  comp,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -44,19 +51,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Computer Science Graduate",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Highly Motivated Learner",
     icon: creator,
   },
 ];
@@ -110,71 +117,55 @@ const technologies = [
   //   name: "figma",
   //   icon: figma,
   // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "github",
+    icon: github,
+  },
   {
     name: "python",
     icon: python,
   },
   {
-    name: "bootsrap",
-    icon: bootsrap,
+    name: "bootstrap",
+    icon: bootstrap,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Junior Software Developer",
+    company_name: "Home",
+    icon: comp,
+    iconBg: "#7FAAD0",
+    date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently looking for a full time position as a junior software developer.",
+      "Building and developing personal projects to expand my technology stack.",
+      "Constantly exploring and adapting to new technologies in web development.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Computer Science Student",
+    company_name: "Sapir Academic College",
+    icon: sapir,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2020 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Successfully completed a degree in Computer Science with a GPA of 80.",
+      "Acquired a strong foundation in computer science with a specialized focus on web development.",
+      "Completed a 52-hour DevOps course by Analiza.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Combat Soldier",
+    company_name: "IDF",
+    icon: idf,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2015 - 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A combat soldier in the Search and Rescue unit of the Israeli Defense Forces.",
+      "Participated in the 2016 underground parking lot collapse rescue operation in Tel Aviv's Ramat Hahayal.",
+      "Currently on active reserve duty.",
     ],
   },
 ];
@@ -208,58 +199,61 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nomad",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Nomad is a mobile-first web app designed to facilitate business meetups at conventions and conferences. Users can search and filter events by distance, navigate to chosen conventions, and utilize the built-in chat feature powered by Agora.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "django",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    type: "Full Stack Project",
+    image: nomad,
+    source_code_link: "https://github.com/TomKondat/nomad",
   },
   {
-    name: "Job IT",
+    name: "Memories",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A social web app built on the MERN stack and the Material-UI library, enabling users to create, upload, and like posts. It features integrated Google OAuth 2.0 for user authentication, allowing users to log in with their Google accounts. ",
+    tags: [
+      {
+        name: "mern-stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jwt",
+        color: "pink-text-gradient",
+      },
+    ],
+    type: "Full Stack Project",
+    image: memories,
+    source_code_link:
+      "https://github.com/TomKondat/memories?tab=readme-ov-file",
+  },
+  {
+    name: "Bag World",
+    description:
+      "Developed a web-based e-store frontend with React-Bootstrap for a web development course. Designed to be user-friendly, the project allows easy searching, filtering, adding products to the shopping cart, and placing orders.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -267,8 +261,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    type: "Frontend Project",
+    image: bag,
+    source_code_link: "https://github.com/TomKondat/bag-world",
   },
 ];
 

@@ -43,7 +43,7 @@ const About = () => {
     Computer science graduate with a strong technical foundation and excellent interpersonal skills.
     Quick learner with a passion for technology, adaptable to evolving environments.
     A creative and collaborative team player, eager to contribute to dynamic teams.
-    Seeking a full-time position as a full-stack developer in the tech industry.
+    Seeking a full-time position as a software developer in the tech industry.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
