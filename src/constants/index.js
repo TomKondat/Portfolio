@@ -4,26 +4,14 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   python,
+  django,
   bootstrap,
   nomad,
   memories,
@@ -71,6 +59,14 @@ const services = [
 
 const technologies = [
   {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -79,12 +75,8 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -99,24 +91,21 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  {
-    name: "github",
-    icon: github,
+    name: "django",
+    icon: django,
   },
   {
     name: "python",
     icon: python,
   },
   {
-    name: "bootstrap",
-    icon: bootstrap,
+    name: "git",
+    icon: git,
+  },
+
+  {
+    name: "github",
+    icon: github,
   },
 ];
 
@@ -156,33 +145,6 @@ const experiences = [
       "Participated in the 2016 underground parking lot collapse rescue operation in Tel Aviv's Ramat Hahayal.",
       "Currently on active reserve duty.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -256,4 +218,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

@@ -14,6 +14,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import django from "./tech/django.png";
 import python from "./tech/python.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -79,4 +80,5 @@ export {
   sql,
   linkedin,
   github2,
+  django,
 };
