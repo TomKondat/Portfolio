@@ -18,6 +18,7 @@ import python from "./tech/python.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import sql from "./tech/sql.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -35,6 +36,8 @@ import bag from "./bag.jpg";
 import jobit from "./jobit.png";
 import memories from "./memories.jpg";
 import tripguide from "./tripguide.png";
+import linkedin from "./linkedin.png";
+import github2 from "./github2.png";
 
 export {
   logo,
@@ -73,4 +76,7 @@ export {
   idf,
   sapir,
   comp,
+  sql,
+  linkedin,
+  github2,
 };

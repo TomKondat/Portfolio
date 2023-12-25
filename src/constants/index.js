@@ -32,6 +32,7 @@ import {
   sapir,
   comp,
   github,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -81,22 +82,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -105,10 +94,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "sql",
+    icon: sql,
+  },
   {
     name: "git",
     icon: git,

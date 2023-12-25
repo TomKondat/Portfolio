@@ -4,7 +4,7 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import {  menu , close } from '../assets';
 import logo4 from '../assets/logo4.svg';
-
+import { github, linkedin } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,8 +20,16 @@ const Navbar = () => {
         }}
         >
           <img src={logo4} alt="logo" className='w-9 h-9 object-contain ' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Tom Kondat</p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Tom Kondat</p>&nbsp;&nbsp;
         </Link>
+        <div className="flex items-center gap-2 mr-2 justify-start">
+        <a href="https://github.com/TomKondat">
+              <img src={github} alt="github" className="w-9 h-9" />
+            </a>
+            <a href="https://www.linkedin.com/in/tom-kondat/">
+              <img src={linkedin} alt="linkedin" className="w-9 h-9" />
+            </a>
+        </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
             <li
