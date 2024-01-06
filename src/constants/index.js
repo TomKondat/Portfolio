@@ -11,6 +11,7 @@ import {
   mongodb,
   git,
   python,
+  java,
   django,
   bootstrap,
   nomad,
@@ -97,6 +98,10 @@ const technologies = [
   {
     name: "python",
     icon: python,
+  },
+  {
+    name: "java",
+    icon: java,
   },
   {
     name: "git",
