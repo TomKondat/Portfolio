@@ -15,6 +15,7 @@ import {
   django,
   bootstrap,
   nomad,
+  trend,
   memories,
   bag,
   idf,
@@ -160,7 +161,7 @@ const projects = [
       "Nomad is a mobile-first web app designed to facilitate business meetups at conventions and conferences. Users can search and filter events by distance, navigate to chosen conventions, and utilize the built-in chat feature powered by Agora.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -205,21 +206,43 @@ const projects = [
       "Developed a web-based e-store frontend with React-Bootstrap for a web development course. Designed to be user-friendly, the project allows easy searching, filtering, adding products to the shopping cart, and placing orders.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "html&css",
         color: "pink-text-gradient",
       },
     ],
     type: "Frontend Project",
     image: bag,
     source_code_link: "https://github.com/TomKondat/bag-world",
+  },
+  {
+    name: "Tv Trends",
+    description:
+      "Tv Trends is a web application built with React.js and Bootstrap to showcase trending movies and TV shows. Utilizing data fetched from IMDb, users can discover trending entertainment content and easily filter it according to their preferences.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html&css",
+        color: "pink-text-gradient",
+      },
+    ],
+    type: "Frontend Project",
+    image: trend,
+    source_code_link: "https://github.com/TomKondat/Tv-Trends",
   },
 ];
 

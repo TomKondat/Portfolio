@@ -35,12 +35,12 @@ import bootstrap from "./tech/bootstrap.png";
 import carrent from "./carrent.png";
 import nomad from "./nomad.jpg";
 import bag from "./bag.jpg";
+import trend from "./trend.jpg";
 import jobit from "./jobit.png";
 import memories from "./memories.jpg";
 import tripguide from "./tripguide.png";
 import linkedin from "./linkedin.png";
 import github2 from "./github2.png";
-
 export {
   logo,
   backend,
@@ -74,6 +74,7 @@ export {
   java,
   bootstrap,
   nomad,
+  trend,
   memories,
   bag,
   idf,
