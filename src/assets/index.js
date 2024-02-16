@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -17,6 +16,7 @@ import mongodb from "./tech/mongodb.png";
 import django from "./tech/django.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
+import csharp from "./tech/csharp.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -72,6 +72,7 @@ export {
   tripguide,
   python,
   java,
+  csharp,
   bootstrap,
   nomad,
   trend,
