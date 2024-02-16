@@ -12,6 +12,7 @@ import {
   git,
   python,
   java,
+  csharp,
   django,
   bootstrap,
   nomad,
@@ -103,6 +104,10 @@ const technologies = [
   {
     name: "java",
     icon: java,
+  },
+  {
+    name: "csharp",
+    icon: csharp,
   },
   {
     name: "git",
