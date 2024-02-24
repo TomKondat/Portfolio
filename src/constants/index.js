@@ -77,10 +77,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "bootstrap",
-    icon: bootstrap,
-  },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -93,18 +93,18 @@ const technologies = [
     name: "sql",
     icon: sql,
   },
-  {
-    name: "django",
-    icon: django,
-  },
+  // {
+  //   name: "django",
+  //   icon: django,
+  // },
   {
     name: "python",
     icon: python,
   },
-  {
-    name: "java",
-    icon: java,
-  },
+  // {
+  //   name: "java",
+  //   icon: java,
+  // },
   {
     name: "csharp",
     icon: csharp,
@@ -114,10 +114,10 @@ const technologies = [
     icon: git,
   },
 
-  {
-    name: "github",
-    icon: github,
-  },
+  // {
+  //   name: "github",
+  //   icon: github,
+  // },
 ];
 
 const experiences = [
