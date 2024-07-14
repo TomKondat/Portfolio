@@ -29,6 +29,7 @@ import shopify from "./company/shopify.png";
 import idf from "./company/idf.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import elevation from "./company/elevation.png";
 import sapir from "./company/sapir.png";
 import comp from "./company/comp.png";
 import bootstrap from "./tech/bootstrap.png";
@@ -79,6 +80,7 @@ export {
   memories,
   bag,
   idf,
+  elevation,
   sapir,
   comp,
   sql,

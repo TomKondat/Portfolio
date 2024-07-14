@@ -20,6 +20,7 @@ import {
   memories,
   bag,
   idf,
+  elevation,
   sapir,
   comp,
   github,
@@ -122,17 +123,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Software Developer",
-    company_name: "Home",
-    icon: comp,
+    title: "Full Stack Bootcamp",
+    company_name: "Elevation",
+    icon: elevation,
     iconBg: "#7FAAD0",
-    date: "2023 - Present",
+    date: "2024 - Present",
     points: [
-      "Currently looking for a full time position as a junior software developer.",
-      "Building and developing personal projects to expand my technology stack.",
-      "Constantly exploring and adapting to new technologies in web development.",
+      "Gained experience in full-stack development by building and deploying responsive web applications using HTML, CSS, JavaScript, Bootstrap, and React.",
+      "Built and managed backend services with Node.js and integrated databases.",
+      "Utilized AWS for cloud services and application scaling.",
     ],
   },
+  // {
+  //   title: "Junior Software Developer",
+  //   company_name: "Home",
+  //   icon: comp,
+  //   iconBg: "#7FAAD0",
+  //   date: "2023 - Present",
+  //   points: [
+  //     "Currently looking for a full time position as a junior software developer.",
+  //     "Building and developing personal projects to expand my technology stack.",
+  //     "Constantly exploring and adapting to new technologies in web development.",
+  //   ],
+  // },
   {
     title: "Computer Science Student",
     company_name: "Sapir Academic College",
