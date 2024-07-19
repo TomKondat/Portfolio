@@ -40,10 +40,7 @@ const About = () => {
 
     <motion.p variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    Computer science graduate with a strong technical foundation and excellent interpersonal skills.
-    Quick learner with a passion for technology, adaptable to evolving environments.
-    A creative and collaborative team player, eager to contribute to dynamic teams.
-    Seeking a full-time position as a software developer in the tech industry.
+    Computer Science graduate with a solid technical background and a passion for software development. Currently improving skills through Elevation's Fullstack Bootcamp, gaining practical experience in HTML, CSS, JavaScript, and frameworks like React, Express, and Node.js, as well as database management with SQL and MongoDB. Seeking a full-time position as a software developer.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
