@@ -102,10 +102,10 @@ const technologies = [
     name: "python",
     icon: python,
   },
-  // {
-  //   name: "java",
-  //   icon: java,
-  // },
+  {
+    name: "java",
+    icon: java,
+  },
   {
     name: "csharp",
     icon: csharp,
