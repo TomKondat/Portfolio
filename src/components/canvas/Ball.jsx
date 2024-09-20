@@ -19,37 +19,37 @@ const Ball = (props) => {
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial 
-        color = "#9171FF"
-        polygonOffsetFactor={-5}
-        flatShading
+        <meshStandardMaterial
+          color="#697DE4"
+          polygonOffsetFactor={-5}
+          flatShading
         />
-        <Decal position={[0,0,1]}
-        rotation={[2 * Math.PI, 0, 6.25]}
-        map={decal}
-        scale={1}
-        flatShading/>
+        <Decal
+          position={[0, 0, 1]}
+          rotation={[2 * Math.PI, 0, 6.25]}
+          map={decal}
+          scale={1}
+          flatShading
+        />
       </mesh>
     </Float>
-  )
-}
+  );
+};
 
-const BallCanvas = ({icon}) => {
-  return(
+const BallCanvas = ({ icon }) => {
+  return (
     <Canvas
-    frameloop='demand'
-    dpr={[1, 2]}
-    gl={{ preserveDrawingBuffer: true }}
-  >
-    <Suspense fallback={<CanvasLoader />}>
-      <OrbitControls
-        enableZoom={false}
-      />
-      <Ball imgUrl={icon}/>
-    </Suspense>
+      frameloop="demand"
+      dpr={[1, 2]}
+      gl={{ preserveDrawingBuffer: true }}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls enableZoom={false} />
+        <Ball imgUrl={icon} />
+      </Suspense>
 
-    <Preload all />
-  </Canvas>
-  )
-}
-export default BallCanvas
+      <Preload all />
+    </Canvas>
+  );
+};
+export default BallCanvas;

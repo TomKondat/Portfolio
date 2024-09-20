@@ -13,11 +13,14 @@ import {
   python,
   java,
   csharp,
+  redux,
   django,
   bootstrap,
   nomad,
   trend,
   memories,
+  todo2,
+  realestate,
   bag,
   idf,
   elevation,
@@ -48,15 +51,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Software Developer",
+    title: "Full Stack Bootcamp Graduate",
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: backend,
   },
   {
-    title: "Highly Motivated Learner",
+    title: "Web Developer",
     icon: creator,
   },
 ];
@@ -78,10 +81,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  // {
-  //   name: "bootstrap",
-  //   icon: bootstrap,
-  // },
+  {
+    name: "redux",
+    icon: redux,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -94,10 +97,6 @@ const technologies = [
     name: "sql",
     icon: sql,
   },
-  // {
-  //   name: "django",
-  //   icon: django,
-  // },
   {
     name: "python",
     icon: python,
@@ -123,15 +122,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Bootcamp",
+    title: "Full Stack Bootcamp Student",
     company_name: "Elevation",
     icon: elevation,
     iconBg: "#7FAAD0",
     date: "2024 - Present",
     points: [
-      "Gained experience in full-stack development by building and deploying responsive web applications using HTML, CSS, JavaScript, Bootstrap, and React.",
-      "Built and managed backend services with Node.js and integrated databases.",
-      "Utilized AWS for cloud services and application scaling.",
+      "An industry-based intensive 3-month coding Bootcamp that covered the entire MERN stack and beyond.",
+      "Built a number of end-to-end projects from scratch while adhering to solid OOP principles and communicating with a number of external APIs.",
+      "Used git as source control management and collaborated on GitHub.",
     ],
   },
   // {
@@ -196,6 +195,28 @@ const projects = [
     source_code_link: "https://github.com/TomKondat/nomad",
   },
   {
+    name: "Next Nest",
+    description:
+      "Built a full-stack real estate platform connecting agents and buyers, as the final project for my bootcamp. Developed in collaboration with a team using React.js, React Bootstrap, Node.js, Express, MongoDB, and JWT for secure user authentication, with code managed via GitHub.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    type: "Full Stack Project",
+    image: realestate,
+    source_code_link: "https://github.com/TomKondat/real-estate",
+  },
+  {
     name: "Memories",
     description:
       "A social web app built on the MERN stack and the Material-UI library, enabling users to create, upload, and like posts. It features integrated Google OAuth 2.0 for user authentication, allowing users to log in with their Google accounts. ",
@@ -209,7 +230,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "jwt",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
@@ -217,6 +238,28 @@ const projects = [
     image: memories,
     source_code_link:
       "https://github.com/TomKondat/memories?tab=readme-ov-file",
+  },
+  {
+    name: "Todo List App",
+    description:
+      "Developed a full-stack to-do list app with React.js, Redux, and React Bootstrap for responsive UI. Backend built with Node.js, Express, and MongoDB for data management. Secured user authentication using JWT for personalized task lists.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    type: "Full Stack Project",
+    image: todo2,
+    source_code_link: "https://github.com/TomKondat/todo-list",
   },
   {
     name: "Bag World",

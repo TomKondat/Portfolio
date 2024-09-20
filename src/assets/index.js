@@ -35,6 +35,8 @@ import comp from "./company/comp.png";
 import bootstrap from "./tech/bootstrap.png";
 import carrent from "./carrent.png";
 import nomad from "./nomad.jpg";
+import todo2 from "./todo2.png";
+import realestate from "./realestate.png";
 import bag from "./bag.jpg";
 import trend from "./trend.jpg";
 import jobit from "./jobit.png";
@@ -76,6 +78,8 @@ export {
   csharp,
   bootstrap,
   nomad,
+  todo2,
+  realestate,
   trend,
   memories,
   bag,
