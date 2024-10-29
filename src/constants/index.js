@@ -24,6 +24,7 @@ import {
   bag,
   idf,
   elevation,
+  deloitte,
   sapir,
   comp,
   github,
@@ -113,7 +114,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
   // {
   //   name: "github",
   //   icon: github,
@@ -122,11 +122,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "Deloitte",
+    icon: deloitte,
+    iconBg: "#e7f0f6",
+    date: "2024 - Present",
+    points: [
+      "Develop responsive HTML/CSS code for personalized and dynamic email communications using AMPscript.",
+      "Provide technical solutions in a team of developers for consultants at Deloitte Digital.",
+      "Build HTML pages using Server-Side JavaScript and segment audiences utilizing SQL and other Marketing Cloud tools.",
+    ],
+  },
+  {
     title: "Full Stack Bootcamp Student",
     company_name: "Elevation",
     icon: elevation,
     iconBg: "#7FAAD0",
-    date: "2024 - Present",
+    date: "2024 - 2024",
     points: [
       "An industry-based intensive 3-month coding Bootcamp that covered the entire MERN stack and beyond.",
       "Built a number of end-to-end projects from scratch while adhering to solid OOP principles and communicating with a number of external APIs.",
