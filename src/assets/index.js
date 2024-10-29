@@ -30,6 +30,7 @@ import idf from "./company/idf.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import elevation from "./company/elevation.png";
+import deloitte from "./company/deloitte.png";
 import sapir from "./company/sapir.png";
 import comp from "./company/comp.png";
 import bootstrap from "./tech/bootstrap.png";
@@ -85,6 +86,7 @@ export {
   bag,
   idf,
   elevation,
+  deloitte,
   sapir,
   comp,
   sql,
