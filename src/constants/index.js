@@ -251,28 +251,28 @@ const projects = [
     source_code_link:
       "https://github.com/TomKondat/memories?tab=readme-ov-file",
   },
-  {
-    name: "Todo List App",
-    description:
-      "Developed a full-stack to-do list app with React.js, Redux, and React Bootstrap for responsive UI. Backend built with Node.js, Express, and MongoDB for data management. Secured user authentication using JWT for personalized task lists.",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    type: "Full Stack Project",
-    image: todo2,
-    source_code_link: "https://github.com/TomKondat/todo-list",
-  },
+  // {
+  //   name: "Todo List App",
+  //   description:
+  //     "Developed a full-stack to-do list app with React.js, Redux, and React Bootstrap for responsive UI. Backend built with Node.js, Express, and MongoDB for data management. Secured user authentication using JWT for personalized task lists.",
+  //   tags: [
+  //     {
+  //       name: "react.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   type: "Full Stack Project",
+  //   image: todo2,
+  //   source_code_link: "https://github.com/TomKondat/todo-list",
+  // },
   {
     name: "Bag World",
     description:
