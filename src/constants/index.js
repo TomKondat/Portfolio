@@ -128,9 +128,9 @@ const experiences = [
     iconBg: "#e7f0f6",
     date: "2024 - Present",
     points: [
-      "Develop responsive HTML/CSS code for personalized and dynamic email communications using AMPscript.",
-      "Provide technical solutions in a team of developers for consultants at Deloitte Digital.",
-      "Build HTML pages using Server-Side JavaScript and segment audiences utilizing SQL and other Marketing Cloud tools.",
+      "Develop custom, responsive web solutions from scratch, including building full websites from Figma designs using HTML, CSS and JavaScript.",
+      "Implement and optimize Salesforce Marketing Cloud (SFMC) solutions, integrating dynamic content with AMPscript, SQL, and Server-Side JavaScript.",
+      "Collaborate with developers and solution architects to provide technical solutions for various clients, including automations, web development, and email template creation.",
     ],
   },
   {
@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Elevation",
     icon: elevation,
     iconBg: "#7FAAD0",
-    date: "2024 - 2024",
+    date: "2024",
     points: [
       "An industry-based intensive 3-month coding Bootcamp that covered the entire MERN stack and beyond.",
       "Built a number of end-to-end projects from scratch while adhering to solid OOP principles and communicating with a number of external APIs.",
