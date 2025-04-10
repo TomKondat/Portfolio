@@ -66,17 +66,13 @@ const Works = () => {
 
   return (
     <>
-      {/* <div>
+      <div>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
-      </div> */}
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] mb-10">
-          Projects
-        </h2>
-      </motion.div>
-
+        <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          Here are some of the projects I have worked on
+        </p>
+      </div>
       <div
         className="mt-20 flex flex-wrap gap-7"
         style={{ minHeight: "1px" }} // Prevent container collapse
